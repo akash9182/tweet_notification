@@ -1,0 +1,11 @@
+date,username,tweet,ticker
+2021-10-02 18:02:42,Stark011235,$send notification,['$send']
+2021-10-02 18:02:20,Stark011235,Should not send notifications,[]
+2021-10-02 17:52:35,Stark011235,This is new,[]
+2021-10-02 17:48:47,Stark011235,$NICE,['$NICE']
+2021-10-02 17:33:15,Stark011235,Testing testing....,[]
+2021-10-02 14:35:26,Stark011235,$WHATS $GOOD TRY2,"['$WHATS', '$GOOD']"
+2021-10-02 14:34:52,Stark011235,$WHATS PREVIOUS TWEET MISSED,['$WHATS']
+2021-10-02 14:34:04,Stark011235,$ummm,['$ummm']
+2021-10-02 14:27:37,Stark011235,$Ticker attack,['$Ticker']
+2021-10-02 14:17:00,Stark011235,Checking again $YOLO,['$YOLO']
