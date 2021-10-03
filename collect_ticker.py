@@ -72,6 +72,7 @@ def check_last_tweet(df):
 if __name__ == "__main__":
     df = pd.DataFrame()
     df = getTweets("Stark011235")
-    df["ticker"] = df.tweet.apply(lambda x: ['$' + i for i in re.findall(r'\$(\w+)', x)])
-    if check_last_tweet(df):
-        send_email(df)
+    if df.shape[0] > 0:
+        df["ticker"] = df.tweet.apply(lambda x: ['$' + i for i in re.findall(r'\$(\w+)', x)])
+        if check_last_tweet(df):
+            send_email(df)
